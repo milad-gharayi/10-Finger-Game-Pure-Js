@@ -41,6 +41,7 @@ function getsetting() {
     keyTime = parseInt(keyTime);
     if (keyTime < 10 || keyTime > 60) {
         secwarn.innerHTML = "زمان باید بین 10 و 60 باشد";
+        keyTime =10*1000
     } else {
         secwarn.innerHTML = "";
         keyTime = (keyTime * 1000)
