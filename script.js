@@ -87,6 +87,8 @@ function getKey(k) {
     }
 };
 //start processing what key presses
+//start codeing for ball moveing to up
+//for balla
 function goupa() {
     clearTimeout(downa);
     dis1 = setTimeout(function () {
@@ -100,8 +102,8 @@ function goupa() {
     } else {
         godowna()
     }
-
 }
+//for ball s
 function goups() {
     if(divballs.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -122,6 +124,7 @@ function goups() {
         godowns()
     }
 }
+//for ball d
 function goupd() {
     if(divballd.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -142,6 +145,7 @@ function goupd() {
         godownd()
     }
 }
+//for ball f
 function goupf() {
     if(divballf.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -162,6 +166,7 @@ function goupf() {
         godownf()
     }
 }
+//for ball g
 function goupg() {
     if(divballg.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -182,6 +187,7 @@ function goupg() {
         godowng()
     }
 }
+//for ball h
 function gouph() {
     if(divballh.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -202,6 +208,7 @@ function gouph() {
         godownh()
     }
 }
+//for ball j
 function goupj() {
     if(divballj.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -222,6 +229,7 @@ function goupj() {
         godownj()
     }
 }
+//for ball k
 function goupk() {
     if(divballk.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -242,6 +250,7 @@ function goupk() {
         godownk()
     }
 }
+//for ball l
 function goupl() {
     if(divballl.style.display == !"inline-block"){
         alert(" ااااااوووووپپپپسسسس\n کلیدی را انتخاب کردی که وجود ندارد\n امتباز شما "+'='+showscore.innerHTML);
@@ -257,6 +266,9 @@ function goupl() {
         godownl()
     }
 }
+//end codeing for ball moveing to up
+//start codeing for ball moveing to down
+//for ball a
 function godowna() {
     if (toopa.offsetTop < 460) {
         downa = setTimeout(function () {
@@ -265,6 +277,7 @@ function godowna() {
         }, 10)
     }
 }
+//for ball s
 function godowns() {
     if (toops.offsetTop < 460) {
         downs = setTimeout(function () {
@@ -273,6 +286,7 @@ function godowns() {
         }, 10)
     }
 }
+//for ball d
 function godownd() {
     if (toopd.offsetTop < 460) {
         downd = setTimeout(function () {
@@ -281,6 +295,7 @@ function godownd() {
         }, 10)
     }
 }
+//for ball f
 function godownf() {
     if (toopf.offsetTop < 460) {
         downf = setTimeout(function () {
@@ -289,6 +304,7 @@ function godownf() {
         }, 10)
     }
 }
+//for ball g
 function godowng() {
     if (toopg.offsetTop < 460) {
         downg = setTimeout(function () {
@@ -297,6 +313,7 @@ function godowng() {
         }, 10)
     }
 }
+//for ball h
 function godownh() {
     if (tooph.offsetTop < 460) {
         downh = setTimeout(function () {
@@ -305,6 +322,7 @@ function godownh() {
         }, 10)
     }
 }
+//for ball j
 function godownj() {
     if (toopj.offsetTop < 460) {
         downj = setTimeout(function () {
@@ -313,6 +331,7 @@ function godownj() {
         }, 10)
     }
 }
+//for ball k
 function godownk() {
     if (toopk.offsetTop < 460) {
         downk = setTimeout(function () {
@@ -321,6 +340,7 @@ function godownk() {
         }, 10)
     }
 }
+//for ball l
 function godownl() {
     if (toopl.offsetTop < 460) {
         downl = setTimeout(function () {
@@ -329,8 +349,7 @@ function godownl() {
         }, 10)
     }
 }
-
-
+//end codeing for ball moveing to down
 function callalerts() {
     setTimeout(function () {
         
