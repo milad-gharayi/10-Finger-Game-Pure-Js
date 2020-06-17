@@ -1,3 +1,4 @@
+// start made variables
 var toopa = document.getElementById("ball1a");
 var toops = document.getElementById("ball2s");
 var toopd = document.getElementById("ball3d");
@@ -31,15 +32,15 @@ var score = 0;
 var downa, downs, downd, downf, downg, downh, downj, downk, downl,
 scorea,scores,scored,scoref,scoreg,scoref,scorej,scorek,scorel,tops,
 topd,topf,topg,toph,topj,topk,topl;
+//end made variables
 keyTime = parseInt(keyTime * 1000);
 level1.checked = true
-
+//start set setting for level and time
 function getsetting() {
     keyTime = document.getElementsByName("second")[0].value;
     keyTime = parseInt(keyTime);
     if (keyTime < 10 || keyTime > 60) {
         secwarn.innerHTML = "زمان باید بین 10 و 60 باشد";
-        console.log("hfdgjdfdfg");
     } else {
         secwarn.innerHTML = "";
         keyTime = (keyTime * 1000)
@@ -48,26 +49,19 @@ function getsetting() {
         x = .5;
         y = 1;
         z = 1.5;
-        console.log(x);
-        console.log(y);
-        console.log(z);
 
     } else if (level2.checked) {
         x = 1;
         y = 1.5;
         z = 2;
-        console.log(x);
-        console.log(y);
-        console.log(z);
     } else if (level3.checked) {
         x = 1.5;
         y = 1.8;
         z = 2;
-        console.log(x);
-        console.log(y);
-        console.log(z);
     }
 }
+//end set setting for level and time
+
 function getKey(k) {
     if (k.keyCode == 65) {
         goupa()
