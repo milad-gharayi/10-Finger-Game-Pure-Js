@@ -350,6 +350,8 @@ function godownl() {
     }
 }
 //end codeing for ball moveing to down
+//start set alert and set posithin for new key
+//for s
 function callalerts() {
     setTimeout(function () {
         
@@ -366,6 +368,7 @@ function callalerts() {
     }, 1);
 }
 callalerts();
+//for d
 function callalertd() {
     setTimeout(function () {
         if (divballd.style.display == "inline-block") {
@@ -380,6 +383,7 @@ function callalertd() {
     }, 1);
 }
 callalertd();
+//for f
 function callalertf() {
     setTimeout(function () {
         if (divballf.style.display == "inline-block") {
@@ -393,8 +397,7 @@ function callalertf() {
     }, 1);
 }
 callalertf();
-
-
+//for g
 function callalertg() {
     setTimeout(function () {
         if (divballg.style.display == "inline-block") {
@@ -408,6 +411,7 @@ function callalertg() {
     }, 1);
 }
 callalertg();
+//for h
 function callalerth() {
     setTimeout(function () {
         if (divballh.style.display == "inline-block") {
@@ -421,9 +425,7 @@ function callalerth() {
     }, 1);
 }
 callalerth();
-
-
-
+//fot j
 function callalertj() {
     setTimeout(function () {
         if (divballj.style.display == "inline-block") {
@@ -437,6 +439,7 @@ function callalertj() {
     }, 1);
 }
 callalertj();
+//for k
 function callalertk() {
     setTimeout(function () {
         if (divballk.style.display == "inline-block") {
@@ -450,6 +453,7 @@ function callalertk() {
     }, 1);
 }
 callalertk();
+//for l
 function callalertl() {
     setTimeout(function () {
         if (divballl.style.display == "inline-block") {
@@ -463,6 +467,7 @@ function callalertl() {
     }, 1);
 }
 callalertl();
+//end set alert and set posithin for new key
 function getScorea(){
      scorea=setTimeout(function(){
          if(toopa.offsetTop<448){
