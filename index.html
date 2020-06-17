@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body onkeydown="return getKey(event)">
+    <h1><button id="topbutton">اطلاعات بازی</button></h1>
+    <div class="clear"></div>
+    <div id="information">
+        <button id="howplay" type="button">روش بازی</button>
+        <p>ابتدا کلید مورد نظر در کیبورد را بزنید تا توپ اول شروع به حرکت کند با همان کلید نگذارید توپ به جایگاه
+            قبلی خود برگردد با توجه به مدت زمانی که در تنظیمات انتخاب
+            کرده اید کلید بعدی در دسترس قرار میگیرد و با همان حرفی که
+  روی کلید نوشته شده است میتوانید ان توپ را نیز به حرکت در بیاورید تا توپ های دیگر نیز در دسترس قرار بگیرد بخاطر داشته باشید زمانی که توپ جدید ظاهر میشود تا توپ جدید را به حرکت در نیاورید امتیاز شما ثابت میماند 
+        </p>
+        <button type="button">تنظیمات</button>
+        <div id="setting">
+            <div id="time">
+                <label for="second">مدت زمان کلید بعد =</label>
+                <input id="second" type="number" name="second" value="10"> ثانیه
+                <p id="secondwarning"></p>
+            </div>
+            <div id="level">
+                <label for="level"> سطح بازی = </label>
+                <input id="level" type="radio" name="level" value="beginner">مبتدی
+                <input id="level" type="radio" name="level" value="normal">معمولی
+                <input id="level" type="radio" name="level" value="advance">پیشرفته
+            </div>
+            <button type="button" onclick="getsetting()">اعمال تنظیمات</button>
+        </div>
+        <div id="me">
+            <button type="button">سازنده</button>
+            <h2>نام : میلاد قرائی</h2>
+            <h3>درباره من</h3>
+            <p>بسیار علاقه مند به برنامه نویسی هستم و این بازی جهت رزومه کاری ساخته شده است که در صورت تمایل کارفرما
+                تکمیل میشود</p>
+            <h3>شماره تماس :</h3>
+            <p>09191010411</p>
+            <p>09386131203</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div id="balla">
+        <div id="ball1a">A</div>
+        <span>___</span>
+        <button>A</button>
+    </div>
+    <div id="balls">
+        <div id="ball2s">S</div>
+        <span>___</span>
+        <button>S</button>
+    </div>
+    <div id="balld">
+        <div id="ball3d">D</div>
+        <span>___</span>
+        <button>D</button>
+    </div>
+    <div id="ballf">
+        <div id="ball4f">F</div>
+        <span>___</span>
+        <button>F</button>
+    </div>
+    <div id="ballg">
+        <div id="ball5g">G</div>
+        <span>___</span>
+        <button>G</button>
+    </div>
+    <div id="ballh">
+        <div id="ball6h">H</div>
+        <span>___</span>
+        <button>H</button>
+    </div>
+    <div id="ballj">
+        <div id="ball7j">J</div>
+        <span>___</span>
+        <button>J</button>
+    </div>
+    <div id="ballk">
+        <div id="ball8k">K</div>
+        <span>___</span>
+        <button>K</button>
+    </div>
+    <div id="balll">
+        <div id="ball9l">L</div>
+        <span>___</span>
+        <button>L</button>
+    </div>
+    <div id="divtimer">
+        <span id="scorepara"> : امتیاز</span>
+        <br>
+        <span id="score"></span>
+    </div>
+</body>
+</html>

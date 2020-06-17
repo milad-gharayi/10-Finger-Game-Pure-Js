@@ -1,0 +1,383 @@
+body{
+   background-color:grey ; 
+}
+.clear{
+    clear: both;
+}
+/* a */
+#balla span{
+    position: absolute;
+    top:460px;
+    left:10PX;
+    display: inline-block;
+}
+#balla button{
+    position: absolute;
+    top:480px;
+    left:10PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#balla div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;  
+}
+/* a */
+/* s */
+#balls span{
+    position: absolute;
+    top:460px;
+    left:45PX;
+    display: inline-block;
+}
+#balls button{
+    position: absolute;
+    top:480px;
+    left:45PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#balls div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 43px;
+}
+/* s */
+/* d */
+#balld span{
+    position: absolute;
+    top:460px;
+    left:80PX;
+    display: inline-block;
+}
+#balld button{
+    position: absolute;
+    top:480px;
+    left:80PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#balld div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 78px;
+}
+/* d */
+/* f */
+#ballf span{
+    position: absolute;
+    top:460px;
+    left:115PX;
+    display: inline-block;
+}
+#ballf button{
+    position: absolute;
+    top:480px;
+    left:115PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#ballf div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 113px;
+}
+/* f */
+/* g */
+#ballg span{
+    position: absolute;
+    top:460px;
+    left:150PX;
+    display: inline-block;
+}
+#ballg button{
+    position: absolute;
+    top:480px;
+    left:149PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#ballg div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 147px;
+}
+/* g */
+/* h */
+#ballh span{
+    position: absolute;
+    top:460px;
+    left:184PX;
+    display: inline-block;
+}
+#ballh button{
+    position: absolute;
+    top:480px;
+    left:183PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#ballh div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 181px;
+}
+/* h */
+/* j */
+#ballj span{
+    position: absolute;
+    top:460px;
+    left:218PX;
+    display: inline-block;
+}
+#ballj button{
+    position: absolute;
+    top:480px;
+    left:218PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#ballj div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 215px;
+}
+/* j */
+/* k */
+#ballk span{
+    position: absolute;
+    top:460px;
+    left:251PX;
+    display: inline-block; 
+}
+#ballk button{
+    position: absolute;
+    top:480px;
+    left:251PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#ballk div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 249px;
+}
+/* k */
+/* l */
+#balll span{
+    position: absolute;
+    top:460px;
+    left:284PX;
+    display: inline-block;
+}
+#balll button{
+    position: absolute;
+    top:480px;
+    left:284PX;
+    background-color: burlywood;
+    display: inline-block;
+}
+#balll div{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    padding:2px 0 2px 7px;
+    position: absolute;
+    top: 450px;
+    left: 282px;
+}
+/* l */
+
+/* display */
+#balls{
+    display: none;
+    }
+#balld{
+     display: none;
+ }
+ #ballf{
+     display: none;
+ }
+ #ballg{
+    display: none;
+ }
+ #ballh{
+    display: none;
+ }
+ #ballj{
+     display: none;
+ }
+ #ballk{
+     display: none;
+ }
+#balll{
+     display: none;
+ }
+/* display */
+#divtimer{
+    width: 100px;
+    height: 90px;
+    background-color: red;
+    position: absolute;
+    top: 530px;
+    left: 100px;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+#divtimer span#scorepara{
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 20px;
+}
+#divtimer span#score{
+font-size:40px;
+
+}
+
+/* infiormatin */
+h1 #topbutton{
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+    margin-top: -15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 0 5px black;
+}
+#howplay{
+    margin-top: 10px;
+}
+#information{
+    direction: rtl;
+    text-align:center;
+    width: 30%;
+   float: right;
+   margin-right: 10px;
+   background-color: rgb(168, 20, 20);
+   border-radius: 10px;
+   
+}
+#information h1 {
+    color: rgb(240, 246, 248); 
+    text-align: center; 
+     font-weight: bold;
+    font-family: tahoma; 
+}
+
+#information button{
+    padding: 10px;
+   box-shadow: 2px 0 5px black;
+   border-radius: 5px;
+   font-family: tahoma;
+   color: rgb(85, 22, 128);
+   font-weight: bold;
+}
+#information p{
+    color:rgb(240, 246, 248);
+    line-height: 25px;
+    font-family: tahoma;
+    font-weight: bold;
+    text-align: justify;
+    margin: 10px;
+}
+#information #setting{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#information #setting div#time {
+    color: rgb(240, 246, 248);
+    font-weight: bold;
+    font-family: tahoma;
+}
+#information #setting div#time input{
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 0 5px black
+}
+#information #setting div#time p#secondwarning{
+    color: red;
+}
+#information #setting #level{
+color: rgb(240, 246, 248);
+font-weight: bold;
+font-family: tahoma;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+#information #me h2{
+color: rgb(240, 246, 248);
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+    font-family: tahoma;
+}
+#information #me h3{
+    color:rgb(240, 246, 248) ;
+    font-weight: bold;
+    font-family: tahoma;
+}
+#information #me p{
+    text-align: center;
+}
+/* infiormatin */
