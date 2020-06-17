@@ -61,7 +61,7 @@ function getsetting() {
     }
 }
 //end set setting for level and time
-
+//start processing what key presses
 function getKey(k) {
     if (k.keyCode == 65) {
         goupa()
@@ -86,6 +86,7 @@ function getKey(k) {
         location.reload()
     }
 };
+//start processing what key presses
 function goupa() {
     clearTimeout(downa);
     dis1 = setTimeout(function () {
