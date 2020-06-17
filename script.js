@@ -468,6 +468,8 @@ function callalertl() {
 }
 callalertl();
 //end set alert and set posithin for new key
+//start stop and restart score for hiden/visible keys
+//for a
 function getScorea(){
      scorea=setTimeout(function(){
          if(toopa.offsetTop<448){
@@ -482,6 +484,7 @@ getScorea();
 function deleatScorea()  {            
  clearTimeout(scorea);      
   }
+  //for s
  function getScores(){
      scores=setTimeout(function(){
          if(toops.offsetTop<448){
@@ -495,6 +498,7 @@ function deleatScorea()  {
  function deleatScores()  {            
  clearTimeout(scores);
  }
+//for d
  function getScored(){
      scored=setTimeout(function(){
          if(toopd.offsetTop<448){
@@ -507,6 +511,7 @@ function deleatScorea()  {
  function deleatScored()  {            
  clearTimeout(scored);
  }
+ //for f
  function getScoref(){
      scoref=setTimeout(function(){
          if(toopf.offsetTop<448){
@@ -516,10 +521,10 @@ function deleatScorea()  {
          getScoref();
      },1000)  
  }
- 
  function deleatScoref()  {            
  clearTimeout(scoref);
  }
+ //for g
  function getScoreg(){
      scoreg=setTimeout(function(){
          if(toopg.offsetTop<448){
@@ -533,6 +538,7 @@ function deleatScorea()  {
  function deleatScoreg()  {            
  clearTimeout(scoreg);
  }
+ //for h
  function getScoreh(){
      scoreh=setTimeout(function(){
          if(tooph.offsetTop<448){
@@ -542,10 +548,10 @@ function deleatScorea()  {
          getScoreh();
      },1000)  
  }
- 
  function deleatScoreh()  {            
  clearTimeout(scoreh);
  }      
+ //for j
  function getScorej(){
      scorej=setTimeout(function(){
          if(toopj.offsetTop<448){
@@ -555,10 +561,10 @@ function deleatScorea()  {
          getScorej();
      },1000)  
  }
- 
  function deleatScorej()  {            
  clearTimeout(scorej);
  }      
+ //for k
  function getScorek(){
      scorek=setTimeout(function(){
          if(toopk.offsetTop<448){
@@ -568,10 +574,10 @@ function deleatScorea()  {
          getScorek();
      },1000)  
  }
- 
  function deleatScorek()  {            
  clearTimeout(scorek);
- }      
+ }   
+ //for l   
  function getScorel(){
      scorel=setTimeout(function(){
          if(toopl.offsetTop<448){
@@ -581,10 +587,10 @@ function deleatScorea()  {
          getScorel();
      },1000)
  }
- 
  function deleatScorel()  {            
  clearTimeout(scorel);
  }
+ //end stop and restart score for hiden/visible keys
  function endGame(){
      setTimeout(function(){
          if(toopa.offsetTop>=455||toops.offsetTop>=455||toopd.offsetTop>=455||toopf.offsetTop>=455||toopg.offsetTop>=455||tooph.offsetTop>=455||toopj.offsetTop>=455||toopk.offsetTop>=455||toopl.offsetTop>=455){
