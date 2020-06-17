@@ -591,6 +591,7 @@ function deleatScorea()  {
  clearTimeout(scorel);
  }
  //end stop and restart score for hiden/visible keys
+ //start codeing for find when user lose
  function endGame(){
      setTimeout(function(){
          if(toopa.offsetTop>=455||toops.offsetTop>=455||toopd.offsetTop>=455||toopf.offsetTop>=455||toopg.offsetTop>=455||tooph.offsetTop>=455||toopj.offsetTop>=455||toopk.offsetTop>=455||toopl.offsetTop>=455){
@@ -602,3 +603,4 @@ function deleatScorea()  {
      },1)
  }
  endGame()
+ //end codeing for find when user lose
